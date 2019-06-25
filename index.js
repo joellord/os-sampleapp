@@ -12,5 +12,6 @@ app.get("/health", (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server started on port ${PORT}`)
+    console.log("Changed by Joel Lord");
+    console.log(`Server started on port ${PORT}`);
 });

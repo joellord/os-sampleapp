@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/health", (req, res) => {
-    res.status(200).send(`Healthy on ${new Date()}`);
+    res.status(200).send(`Healthy, server time: ${new Date()}`);
 });
 
 app.listen(PORT, () => {
